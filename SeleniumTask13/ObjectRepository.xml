@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search_details>
+    <search_box>//input[@name='search']</search_box>
+    <search_button>//button[@class='btn btn-default btn-lg']</search_button>
+    <search_heading>//div[@id='content']//h1</search_heading>
+    <search_criteria_box>input-search</search_criteria_box>
+    <description_checkbox>description</description_checkbox>
+    <search_page_button>button-search</search_page_button>
+</search_details>
