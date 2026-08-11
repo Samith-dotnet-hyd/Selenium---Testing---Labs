@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenCart Automation Suite">
+    <test name="Lab 3 and Lab 4 Execution">
+        <classes>
+            <class name="Lab3Test"/>
+            <class name="Lab4Test"/>
+        </classes>
+    </test>
+</suite>

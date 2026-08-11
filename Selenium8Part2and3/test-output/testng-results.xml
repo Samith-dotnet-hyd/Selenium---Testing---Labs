@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Lab3: Edge browser started and maximized.]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigating to OpenCart site.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Clicking Desktops -> Mac (1).]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Verifying 'Mac' heading.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Sorting products by Name (A - Z).]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Clicking Add to Cart.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Verifying success message.]]>
+    </line>
+    <line>
+      <![CDATA[Lab3: Edge browser closed.]]>
+    </line>
+    <line>
+      <![CDATA[Lab4: Edge browser started and maximized.]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigating to OpenCart site.]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Entering 'Mobile', clearing, and entering 'Monitors'.]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Clicking Search button.]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Verifying 'Search - Monitors' heading.]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Checking 'Search in product descriptions' checkbox.]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Verifying checkbox selection state.]]>
+    </line>
+    <line>
+      <![CDATA[Lab4: Edge browser closed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-11T20:17:54 IST" name="OpenCart Automation Suite" finished-at="2026-08-11T20:18:06 IST" duration-ms="12371">
+    <groups>
+    </groups>
+    <test started-at="2026-08-11T20:17:54 IST" name="Lab 3 and Lab 4 Execution" finished-at="2026-08-11T20:18:06 IST" duration-ms="12371">
+      <class name="Lab4Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Lab4Test@7c7a06ec]" started-at="2026-08-11T20:18:01 IST" name="setUp" finished-at="2026-08-11T20:18:03 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lab4: Edge browser started and maximized.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndFilterFlowTest()[pri:0, instance:Lab4Test@7c7a06ec]" started-at="2026-08-11T20:18:03 IST" name="searchAndFilterFlowTest" finished-at="2026-08-11T20:18:06 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigating to OpenCart site.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Entering 'Mobile', clearing, and entering 'Monitors'.]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Clicking Search button.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Verifying 'Search - Monitors' heading.]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Checking 'Search in product descriptions' checkbox.]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Verifying checkbox selection state.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchAndFilterFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lab4Test@7c7a06ec]" started-at="2026-08-11T20:18:06 IST" name="tearDown" finished-at="2026-08-11T20:18:06 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lab4: Edge browser closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Lab4Test -->
+      <class name="Lab3Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Lab3Test@4c371370]" started-at="2026-08-11T20:17:54 IST" name="setUp" finished-at="2026-08-11T20:17:56 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lab3: Edge browser started and maximized.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="desktopMacFlowTest()[pri:0, instance:Lab3Test@4c371370]" started-at="2026-08-11T20:17:56 IST" name="desktopMacFlowTest" finished-at="2026-08-11T20:18:01 IST" duration-ms="4185" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Navigating to OpenCart site.]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Clicking Desktops -> Mac (1).]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Verifying 'Mac' heading.]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Sorting products by Name (A - Z).]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Clicking Add to Cart.]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Verifying success message.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- desktopMacFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lab3Test@4c371370]" started-at="2026-08-11T20:18:01 IST" name="tearDown" finished-at="2026-08-11T20:18:01 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lab3: Edge browser closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Lab3Test -->
+    </test> <!-- Lab 3 and Lab 4 Execution -->
+  </suite> <!-- OpenCart Automation Suite -->
+</testng-results>
